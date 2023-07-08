@@ -15,6 +15,7 @@ class ProjectCard extends Component {
         return (
             <Slide
             direction="up"
+            timeout={1500} 
             in={true}
             >
             <Card sx={{ 
