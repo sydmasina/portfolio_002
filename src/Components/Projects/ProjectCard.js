@@ -5,11 +5,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
+import Slide from '@mui/material/Slide';
 
 
 class ProjectCard extends Component {
     render(){
         return (
+            <Slide
+            direction="up"
+            in={true}
+            >
             <Card sx={{ 
                 mt:4,
                 maxWidth: 750,
@@ -41,7 +46,7 @@ class ProjectCard extends Component {
                   View Code
                 </Button>
               </CardActions>
-            </Card>
+            </Card></Slide>
           );
     }
 }

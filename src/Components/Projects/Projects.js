@@ -40,27 +40,21 @@ function Projects (){
         
     ]
     return (
-        <Fade
-        style={{ transformOrigin: '0 0 0' }}
-        timeout={3000} 
-        in={true}
-        >
-            <Box sx={{
-                display: 'flex', 
-                alignItems: 'center',
-                flexDirection: 'column',
-                mt:6
-            }}>
-                {
-                    ProjectList.map(project =>{
-                        return <ProjectCard
+        <Box sx={{
+            display: 'flex', 
+            alignItems: 'center',
+            flexDirection: 'column',
+            mt:6
+        }}>
+            {
+                ProjectList.map(project =>{
+                    return <ProjectCard
                         sx={{mt: 2}}
                         {...project}
-                        />
-                    })
-                }
-            </Box>
-        </Fade>
+                        /> 
+                })
+            }
+        </Box>
     )
 }
 export default Projects;
