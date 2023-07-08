@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This is the project site [Visit Site]([https://sydmasina.github.io/portfolio_002/).
+This is the project site [Visit Site](https://sydmasina.github.io/portfolio_002/).
 
 ## Available Scripts
 
