@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
 import Box from '@mui/material/Box';
+import Fade from '@mui/material/Fade';
 
 function Projects (){
     const ProjectList = [
@@ -39,21 +40,27 @@ function Projects (){
         
     ]
     return (
-        <Box sx={{
-            display: 'flex', 
-            alignItems: 'center',
-            flexDirection: 'column',
-            mt:6
-        }}>
-            {
-                ProjectList.map(project =>{
-                    return <ProjectCard
-                     sx={{mt: 2}}
-                    {...project}
-                    />
-                })
-            }
-        </Box>
+        <Fade
+        style={{ transformOrigin: '0 0 0' }}
+        timeout={3000} 
+        in={true}
+        >
+            <Box sx={{
+                display: 'flex', 
+                alignItems: 'center',
+                flexDirection: 'column',
+                mt:6
+            }}>
+                {
+                    ProjectList.map(project =>{
+                        return <ProjectCard
+                        sx={{mt: 2}}
+                        {...project}
+                        />
+                    })
+                }
+            </Box>
+        </Fade>
     )
 }
 export default Projects;
