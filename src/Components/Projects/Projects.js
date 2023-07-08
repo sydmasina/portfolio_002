@@ -37,8 +37,8 @@ function Projects (){
             title:"Vue-Monoster-Game",
             description:"A monster game created with vue. A user can attack a monster, perform special attacks that deal more damage to the monster, can use heal to boost health. Every time a user makes a move the monster deals a random amount of damage.",
             technologies:["VUEJS","JavaScript","NodeJS", "NPM Packages","HTML5","CSS3"],
-            siteLink:"https://sydmasina.github.io/TV-Shows-Search-API/",
-            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651220678/MyPortfolio/fmjnpfnfrrclvure7cfs.gif",
+            siteLink:"https://vue-monster-game.onrender.com/",
+            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1682249529/MyPortfolio/boiy508wzbhcs5agomrq.gif",
             codeLink: "https://github.com/sydmasina/Vue-Monster-Game"
         },
         
