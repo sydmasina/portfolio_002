@@ -14,7 +14,7 @@ function Home(props) {
             in={true}
             >
                 <Box sx={{ width: '100%', maxWidth: 600 }}>
-                    <Typography variant="h3" gutterBottom>
+                    <Typography sx={{ fontFamily: 'emoji'}} variant="h3" gutterBottom>
                     Hello there, I'm <Typography color='primary' variant='b'>Syd Masina.</Typography> I am a Full-Stack Software Developer.
                     </Typography>
                     <Button onClick={(e)=>handleNavclick(e, "Projects")} sx={{mt: 2}} size="large" variant="outlined">View my work &raquo;</Button>

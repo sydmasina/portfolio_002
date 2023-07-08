@@ -33,10 +33,10 @@ class ProjectCard extends Component {
                   alt="green iguana"
                 />
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
+                  <Typography sx={{fontFamily: 'cursive'}} gutterBottom variant="h5" component="div">
                     {this.props.title}
                   </Typography>
-                  <Typography variant="body2" color='black'>
+                  <Typography sx={{fontFamily: 'cursive'}} variant="body2" color='black'>
                     {this.props.description}
                   </Typography>
                 </CardContent>
