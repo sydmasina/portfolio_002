@@ -7,6 +7,7 @@ import CardMedia from '@mui/material/CardMedia';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import Grow from '@mui/material/Grow';
 import Fade from '@mui/material/Fade';
+import Avatar from '@mui/joy/Avatar';
 
 
 export default function About(prop){
@@ -17,30 +18,44 @@ export default function About(prop){
         in={true}
         >
             <Box sx={{
-                mt:4,
+                mt:5,
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems:'center',
                 flexDirection: 'column'
             }}>
-                <Typography sx={{flexDirection: 'row'}} variant='h3' component="div">
-                    This be the About Page. Let's goooooooooooo!!!!!!!!!!!!!!!!!!!
-                </Typography>
+                <Box 
+                sx={{
+                    mt:4,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems:'center',
+                    flexDirection: 'row'
+                }}
+                >
+                    <Avatar variant='outlined' color='primary' alt='SM' sx={{"--Avatar-size":"150px",flexDirection: 'row', mr:2 }}
+                        src="https://res.cloudinary.com/djltat0ph/image/upload/v1688826965/IMG_2111_coy_sj9dzw.jpg" />
+                    
+                    <Typography color='primary.light' sx={{flexDirection: 'row', fontFamily: 'cursive'}} variant='h4' component="div">
+                        SYDWELL MASINA
+                    </Typography>
+                </Box>
+               
                 <Card sx={{ 
                     flexDirection: 'row',
                     mt:4,
                     maxWidth: 600,
-                    width:'50%',
-                    height: 400,
-                    backgroundColor: 'primary.main',
+                    width: 500,
+                    height: 300,
+                    backgroundColor: 'transparent',
                     color: 'white'
                     }}
                     >
 
                 <CardActionArea  color="primary">
                     <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                        This is SYD MASINA!
+                    <Typography gutterBottom variant="h6" component="div">
+                    Hi, I'm Syd Masina. I am Software Developer, based in Johannesburg South Africa. I have proficient skills in the Backend and frontend Technologies. Also including DevOps skills and AWS cloud computing. My main desire is to solve real world problems with the use of Technology. I love learning and growing, want to use each as a day to learn something new.
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                         
