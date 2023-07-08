@@ -39,10 +39,18 @@ class ProjectCard extends Component {
                 </CardContent>
               </CardActionArea>
               <CardActions sx={{ justifyContent: 'center' }}>
-                <Button  variant="contained" size="small" color="secondary">
+                <Button  
+                sx={{mr:1}}
+                href={this.props.siteLink}  
+                target='_blank'  
+                variant="contained" size="small" color="secondary">
                   Visit site
                 </Button>
-                <Button sx={{backgroundColor: 'black'}} variant="contained" size="small">
+                <Button 
+                sx={{backgroundColor: 'black'}} 
+                href={this.props.codeLink}  
+                target='_blank'  
+                variant="contained" size="small">
                   View Code
                 </Button>
               </CardActions>
