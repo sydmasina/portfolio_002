@@ -12,7 +12,7 @@ class ProjectCard extends Component {
         return (
             <Card sx={{ 
                 mt:4,
-                maxWidth: 550,
+                maxWidth: 750,
                 backgroundColor: 'primary.main',
                 color: 'white'
                 }}
@@ -20,7 +20,7 @@ class ProjectCard extends Component {
               <CardActionArea  color="primary">
                 <CardMedia
                   component="img"
-                  height="300"
+                  height="400"
                   image={this.props.imageLink}
                   alt="green iguana"
                 />
@@ -28,14 +28,17 @@ class ProjectCard extends Component {
                   <Typography gutterBottom variant="h5" component="div">
                     {this.props.title}
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="body2" color='black'>
                     {this.props.description}
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              <CardActions>
-                <Button size="small" color="primary">
+              <CardActions sx={{ justifyContent: 'center' }}>
+                <Button  variant="contained" size="small" color="secondary">
                   Visit site
+                </Button>
+                <Button sx={{backgroundColor: 'black'}} variant="contained" size="small">
+                  View Code
                 </Button>
               </CardActions>
             </Card>
