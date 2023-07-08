@@ -9,7 +9,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  overflow: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; 
+}
+body::-webkit-scrollbar{
+  display: none;
 }
 
 code {
