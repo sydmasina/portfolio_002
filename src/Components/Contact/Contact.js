@@ -9,13 +9,14 @@ import { Button, CardActionArea, CardActions } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import Grow from '@mui/material/Grow';
 
 
 export default function Contact (prop){
     return(
-        <Fade
-        style={{ transformOrigin: '0 0 0' }}
-        timeout={3000} 
+        <Grow
+       
+        timeout={2000} 
         in={true}
         >
              <Box sx={{
@@ -61,7 +62,6 @@ export default function Contact (prop){
                         href="https://github.com/sydmasina"
                         target='_blank'
                     ><GitHubIcon sx={{mr:1}}/> Github</Button>
-
                     <Button sx={{mr:2}} 
                     variant="contained"
                     href="https://www.linkedin.com/in/sydwellmasina/"
@@ -75,6 +75,6 @@ export default function Contact (prop){
                     </CardContent>
                 </Card>
             </Box>
-        </Fade>
+        </Grow>
     )
 }
