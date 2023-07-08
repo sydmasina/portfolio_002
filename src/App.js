@@ -10,6 +10,7 @@ import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
+import { Box } from '@mui/material';
 
 class App extends Component {
   static defaultProps = {
@@ -30,7 +31,7 @@ class App extends Component {
   }
  render(){
   return (
-    <div className="App">
+    <Box  className="App">
       <Navbar handleNavclick={this.handleNavclick} />
       <header  className="App-header">
         {this.state.currentPage == "Home" ? <Home handleNavclick={this.handleNavclick}/> : 
@@ -42,7 +43,7 @@ class App extends Component {
        
       </header>
       
-    </div>
+    </Box>
   );
  }
 }
