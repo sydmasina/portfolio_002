@@ -6,6 +6,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import Slide from '@mui/material/Slide';
+import OpenInNew from '@mui/icons-material/OpenInNew';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 class ProjectCard extends Component {
@@ -44,14 +46,14 @@ class ProjectCard extends Component {
                 href={this.props.siteLink}  
                 target='_blank'  
                 variant="contained" size="small" color="secondary">
-                  Visit site
+                  <OpenInNew  sx={{mr:1}} />  Visit site
                 </Button>
                 <Button 
                 sx={{backgroundColor: 'black'}} 
                 href={this.props.codeLink}  
                 target='_blank'  
                 variant="contained" size="small">
-                  View Code
+                 <GitHubIcon sx={{mr:1}} />  View Code
                 </Button>
               </CardActions>
             </Card></Slide>
