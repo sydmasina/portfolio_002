@@ -11,7 +11,8 @@ function Projects (){
             description:"Is a collection of campgrounds. Users  can view existing campground, add their own campground, leave a review. User have to be logged to add or delete THEIR review, create, edit or delete THEIR campgrounds. Use Mapbox Api to ESTIMATE a location and maps it to Cluster display",
             technologies:["JavaScript","EJS","HTML5","CSS3","Node.js","MongoDB","Express","PassportOAuth"],
             siteLink:"https://yelp-camp-fh2a.onrender.com/",
-            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651065400/MyPortfolio/brtawzlanjy8ssd0kvmv.gif"
+            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651065400/MyPortfolio/brtawzlanjy8ssd0kvmv.gif",
+            codeLink: "https://github.com/sydmasina/YelpCamp"
         },
         {
             _id:"626ba0c721fd3716039d5328",
@@ -19,7 +20,8 @@ function Projects (){
             description:"This a search API, that search for TV shows and updates response on page without refreshing the entire page.",
             technologies:["JavaScript","HTML5","CSS3"],
             siteLink:"https://sydmasina.github.io/TV-Shows-Search-API/",
-            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651220678/MyPortfolio/fmjnpfnfrrclvure7cfs.gif"
+            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651220678/MyPortfolio/fmjnpfnfrrclvure7cfs.gif",
+            codeLink: "https://github.com/sydmasina/TV-Shows-Search-API"
         },
         {
             _id:"626ba61c21fd3716039d532f",
@@ -27,7 +29,8 @@ function Projects (){
             description:"A simple app a that uses JavaScript DOM-manipulation to keep score of a PingPong Game.",
             technologies:["JavaScript","DOM Manipulation","HTML5","CSS3"],
             siteLink:"https://sydmasina.github.io/PingPong/",
-            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651222043/MyPortfolio/etmqz3vlnkc9ta8nlf2c.gif"
+            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651222043/MyPortfolio/etmqz3vlnkc9ta8nlf2c.gif",
+            codeLink: "https://github.com/sydmasina/PingPong"
         },
         {
             _id:"6445173a9e29acea905770d0",
@@ -35,7 +38,8 @@ function Projects (){
             description:"A monster game created with vue. A user can attack a monster, perform special attacks that deal more damage to the monster, can use heal to boost health. Every time a user makes a move the monster deals a random amount of damage.",
             technologies:["VUEJS","JavaScript","NodeJS", "NPM Packages","HTML5","CSS3"],
             siteLink:"https://sydmasina.github.io/TV-Shows-Search-API/",
-            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651220678/MyPortfolio/fmjnpfnfrrclvure7cfs.gif"
+            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651220678/MyPortfolio/fmjnpfnfrrclvure7cfs.gif",
+            codeLink: "https://github.com/sydmasina/Vue-Monster-Game"
         },
         
     ]
