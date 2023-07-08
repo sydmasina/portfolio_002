@@ -8,6 +8,8 @@ import '@fontsource/roboto/700.css';
 import Navbar from './Components/Navbar/Navabar';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 
 class App extends Component {
   static defaultProps = {
@@ -31,8 +33,10 @@ class App extends Component {
     <div className="App">
       <Navbar handleNavclick={this.handleNavclick} />
       <header  className="App-header">
-        {this.state.currentPage == "Home" ? <Home /> : 
-          this.state.currentPage == "Projects" ? <Projects /> : ''
+        {this.state.currentPage == "Home" ? <Home handleNavclick={this.handleNavclick}/> : 
+          this.state.currentPage == "Projects" ? <Projects /> : 
+          this.state.currentPage == "About" ? <About/> : 
+          this.state.currentPage == "Contact" ? <Contact/> : ''
         }
       
        
