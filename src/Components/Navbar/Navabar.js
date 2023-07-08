@@ -21,7 +21,7 @@ const drawerWidth = 240;
 const navItems = ['Home', 'About', 'Projects', 'Contact'];
 
 function Navbar(props) {
-  const { window } = props;
+  const { window, handleNavclick } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -36,8 +36,8 @@ function Navbar(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
+          <ListItem  key={item} disablePadding>
+            <ListItemButton onClick={(e)=>handleNavclick(e, item)} sx={{ textAlign: 'center' }}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -76,7 +76,7 @@ function Navbar(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' }, mr:4 }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
+              <Button onClick={(e)=>handleNavclick(e, item)} key={item} sx={{ color: '#fff' }}>
                 {item}
               </Button>
             ))}
