@@ -54,7 +54,7 @@ export default function About(prop){
 
                 <CardActionArea  color="primary">
                     <CardContent>
-                    <Typography gutterBottom variant="h6" component="div">
+                    <Typography sx={{ fontFamily: 'math'}} gutterBottom variant="h6" component="div">
                     Hi, I'm Syd Masina. I am Software Developer, based in Johannesburg South Africa. I have proficient skills in the Backend and frontend Technologies. Also including DevOps skills and AWS cloud computing. My main desire is to solve real world problems with the use of Technology. I love learning and growing, want to use each as a day to learn something new.
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
