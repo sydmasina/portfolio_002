@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the project site [Visit Site](https://sydmasina.github.io/portfolio_002/).
 
 ## Available Scripts
 
