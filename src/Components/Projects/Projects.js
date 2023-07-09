@@ -20,7 +20,7 @@ function Projects (){
             description:"A word guessing game that's implemented using REACT basics. The main intension is make use on props, state and event handlers to work with Components, that includeds Parent and Child components. Passing data down or up between components. ",
             technologies:["ReactJS","JavaScript","NodeJS", "NPM Packages","HTML5","CSS3"],
             siteLink:"https://sydmasina.github.io/hamangame/",
-            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1688890090/GifMaker_20230709100520966_nxhuhq.gif",
+            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1688890555/GifMaker_20230709101513364_uxbqfc.gif",
             codeLink: "https://github.com/sydmasina/hamangame"
         },
         {
