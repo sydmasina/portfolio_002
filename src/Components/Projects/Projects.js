@@ -15,6 +15,15 @@ function Projects (){
             codeLink: "https://github.com/sydmasina/YelpCamp"
         },
         {
+            _id:"6445173a9e29acea905770d0",
+            title:"Vue-Monoster-Game",
+            description:"A monster game created with vue. A user can attack a monster, perform special attacks that deal more damage to the monster, can use heal to boost health. Every time a user makes a move the monster deals a random amount of damage.",
+            technologies:["VUEJS","JavaScript","NodeJS", "NPM Packages","HTML5","CSS3"],
+            siteLink:"https://vue-monster-game.onrender.com/",
+            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1682249529/MyPortfolio/boiy508wzbhcs5agomrq.gif",
+            codeLink: "https://github.com/sydmasina/Vue-Monster-Game"
+        },
+        {
             _id:"626ba0c721fd3716039d5328",
             title:"TV Shows Search API",
             description:"This a search API, that search for TV shows and updates response on page without refreshing the entire page.",
@@ -31,16 +40,7 @@ function Projects (){
             siteLink:"https://sydmasina.github.io/PingPong/",
             imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651222043/MyPortfolio/etmqz3vlnkc9ta8nlf2c.gif",
             codeLink: "https://github.com/sydmasina/PingPong"
-        },
-        {
-            _id:"6445173a9e29acea905770d0",
-            title:"Vue-Monoster-Game",
-            description:"A monster game created with vue. A user can attack a monster, perform special attacks that deal more damage to the monster, can use heal to boost health. Every time a user makes a move the monster deals a random amount of damage.",
-            technologies:["VUEJS","JavaScript","NodeJS", "NPM Packages","HTML5","CSS3"],
-            siteLink:"https://vue-monster-game.onrender.com/",
-            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1682249529/MyPortfolio/boiy508wzbhcs5agomrq.gif",
-            codeLink: "https://github.com/sydmasina/Vue-Monster-Game"
-        },
+        }
         
     ]
     return (
