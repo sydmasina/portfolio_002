@@ -3,9 +3,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import { Button, CardActionArea, CardActions } from '@mui/material';
-import Grow from '@mui/material/Grow';
+import { CardActionArea } from '@mui/material';
 import Fade from '@mui/material/Fade';
 import Avatar from '@mui/joy/Avatar';
 

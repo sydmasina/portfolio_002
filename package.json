@@ -1,5 +1,5 @@
 {
-  "homepage":"https://sydmasina.github.io/portfolio_002",
+  "homepage": "https://sydmasina.github.io/portfolio_002",
   "name": "portfolio_002",
   "version": "0.1.0",
   "private": true,
@@ -19,6 +19,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.11",
+    "update-browserslist-db": "^1.1.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -48,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^5.0.0"
   }
 }
