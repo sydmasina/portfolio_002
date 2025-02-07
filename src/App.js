@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React, { Component } from 'react'
 import './App.css';
 import '@fontsource/roboto/300.css';
@@ -34,10 +33,10 @@ class App extends Component {
     <Box  className="App">
       <Navbar handleNavclick={this.handleNavclick} />
       <header  className="App-header">
-        {this.state.currentPage == "Home" ? <Home handleNavclick={this.handleNavclick}/> : 
-          this.state.currentPage == "Projects" ? <Projects /> : 
-          this.state.currentPage == "About" ? <About/> : 
-          this.state.currentPage == "Contact" ? <Contact/> : ''
+        {this.state.currentPage === "Home" ? <Home handleNavclick={this.handleNavclick}/> : 
+          this.state.currentPage === "Projects" ? <Projects /> : 
+          this.state.currentPage === "About" ? <About/> : 
+          this.state.currentPage === "Contact" ? <Contact/> : ''
         }
       
        
