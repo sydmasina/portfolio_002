@@ -40,7 +40,7 @@ class ProjectCard extends Component {
               <Typography
                 sx={{ fontFamily: "cursive" }}
                 variant="body2"
-                color="black"
+                color="white"
               >
                 {this.props.description}
               </Typography>
