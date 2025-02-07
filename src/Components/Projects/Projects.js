@@ -1,10 +1,18 @@
 import React from 'react'
 import ProjectCard from './ProjectCard';
 import Box from '@mui/material/Box';
-import Fade from '@mui/material/Fade';
 
 function Projects (){
     const ProjectList = [
+        {
+            _id:"6789423d135gt34ft333",
+            title:"DevSpot",
+            description:"DevSpot is designed to streamline the process of posting and managing job listings for developer roles. This platform aims to connect employers with potential developer candidates efficiently.",
+            technologies:["ASP.NET", "Entity Framework", "Azure SQL Server", "SQL Database", "C#", "Azure App Service","CI Github Deployments", "HTML", "CSS", "JavaScript"],
+            siteLink:"https://dev-spot-app-dnd8f5epejfncja5.southafricanorth-01.azurewebsites.net/",
+            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1738938548/GifMaker_20250207162521846_ywao54.gif",
+            codeLink: "https://github.com/sydmasina/DevSpot"
+        },
         {
             _id:"6269423d1354342334b1866c",
             title:"YelpCamp",
@@ -32,15 +40,15 @@ function Projects (){
             imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1682249529/MyPortfolio/boiy508wzbhcs5agomrq.gif",
             codeLink: "https://github.com/sydmasina/Vue-Monster-Game"
         },
-        {
-            _id:"626ba0c721fd3716039d5328",
-            title:"TV Shows Search API",
-            description:"This a search API, that search for TV shows and updates response on page without refreshing the entire page.",
-            technologies:["JavaScript","HTML5","CSS3"],
-            siteLink:"https://sydmasina.github.io/TV-Shows-Search-API/",
-            imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651220678/MyPortfolio/fmjnpfnfrrclvure7cfs.gif",
-            codeLink: "https://github.com/sydmasina/TV-Shows-Search-API"
-        },
+        // {
+        //     _id:"626ba0c721fd3716039d5328",
+        //     title:"TV Shows Search API",
+        //     description:"This a search API, that search for TV shows and updates response on page without refreshing the entire page.",
+        //     technologies:["JavaScript","HTML5","CSS3"],
+        //     siteLink:"https://sydmasina.github.io/TV-Shows-Search-API/",
+        //     imageLink:"https://res.cloudinary.com/djltat0ph/image/upload/v1651220678/MyPortfolio/fmjnpfnfrrclvure7cfs.gif",
+        //     codeLink: "https://github.com/sydmasina/TV-Shows-Search-API"
+        // },
         {
             _id:"626ba61c21fd3716039d532f",
             title:"Ping-Pong",
