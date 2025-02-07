@@ -34,7 +34,7 @@ export default function About(prop){
                 }}
                 >
                     <Avatar variant='outlined' color='primary' alt='SM' sx={{"--Avatar-size":"150px",flexDirection: 'row', mr:2 }}
-                        src="https://res.cloudinary.com/djltat0ph/image/upload/v1688826965/IMG_2111_coy_sj9dzw.jpg" />
+                        src="https://res.cloudinary.com/djltat0ph/image/upload/v1688879620/IMG_2124_ma0rem.jpg" />
                     
                     <Typography color='primary.light' sx={{flexDirection: 'row', fontFamily: 'cursive'}} variant='h4' component="div">
                         SYDWELL MASINA

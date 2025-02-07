@@ -70,7 +70,7 @@ function Navbar(props) {
           >
              <Stack direction="row" spacing={1}>
              <Avatar variant='outlined' color='primary' alt='SM'
-                        src="https://res.cloudinary.com/djltat0ph/image/upload/v1688836349/one-piece-mugiwara-flag-logo-08F872AFB6-seeklogo.com_voxz2r.png" />
+                        src="https://res.cloudinary.com/djltat0ph/image/upload/v1688826965/IMG_2111_coy_sj9dzw.jpg" />
                     
              <Typography variant='h6' sx={{  ml:5, display: 'inline' }}>
              SydMasina
