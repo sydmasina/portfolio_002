@@ -4,6 +4,28 @@ import { Grid, Container } from "@mui/material";
 
 function Projects() {
   const ProjectList = [
+           {
+      _id: "6269423d1354342334b1866c",
+      title: "Full-Stack Real-Time Dating Application",
+      category: "Full-Stack Application", // Added category
+      description:
+        "A comprehensive social networking platform built with ASP.NET Core and Angular. This project features real-time communication powered by SignalR, allowing for instant messaging and live user presence tracking. It showcases a robust implementation of secure authentication, complex data filtering, and a seamless, reactive user experience.",
+      technologies: [
+        "ASP.NET Core 9",
+        "Entity Framework Core",
+        "SignalR",
+        "JWT (JSON Web Tokens)",
+        "AutoMapper",
+        "SQL Server",
+        "Angular",
+        "Bootstrap",
+        "Cloudinary API",
+      ],
+      siteLink: "https://syd-dating-app.azurewebsites.net/",
+      imageLink:
+        "https://res.cloudinary.com/djltat0ph/image/upload/v1769848779/MyPortfolio/dating-app-gif_q6irsq.gif",
+      codeLink: "https://github.com/sydmasina/DatingApp",
+    },
     {
       _id: "6789423d135gt34ft333",
       title: "DevSpot",
@@ -48,56 +70,6 @@ function Projects() {
       imageLink:
         "https://res.cloudinary.com/djltat0ph/image/upload/v1651065400/MyPortfolio/brtawzlanjy8ssd0kvmv.gif",
       codeLink: "https://github.com/sydmasina/YelpCamp",
-    },
-    {
-      _id: "6445173a9e29ertfd0",
-      title: "Hangman Game",
-      category: "React Game", // Added category
-      description:
-        "A word guessing game implemented using React basics. The main intention is to demonstrate the use of props, state, and event handlers to manage components, including parent and child components. Data is passed up and down between components.",
-      technologies: [
-        "ReactJS",
-        "JavaScript",
-        "NodeJS",
-        "NPM Packages",
-        "HTML5",
-        "CSS3",
-      ],
-      siteLink: "https://sydmasina.github.io/hamangame/",
-      imageLink:
-        "https://res.cloudinary.com/djltat0ph/image/upload/v1688890555/GifMaker_20230709101513364_uxbqfc.gif",
-      codeLink: "https://github.com/sydmasina/hamangame",
-    },
-    {
-      _id: "6445173a9e29acea905770d0",
-      title: "Vue-Monster-Game",
-      category: "Vue Game", // Added category
-      description:
-        "A monster game created with Vue.js. The user can attack a monster, perform special attacks for more damage, and use healing abilities to boost health. Every time the user makes a move, the monster randomly deals damage.",
-      technologies: [
-        "VueJS",
-        "JavaScript",
-        "NodeJS",
-        "NPM Packages",
-        "HTML5",
-        "CSS3",
-      ],
-      siteLink: "https://vue-monster-game.onrender.com/",
-      imageLink:
-        "https://res.cloudinary.com/djltat0ph/image/upload/v1682249529/MyPortfolio/boiy508wzbhcs5agomrq.gif",
-      codeLink: "https://github.com/sydmasina/Vue-Monster-Game",
-    },
-    {
-      _id: "626ba61c21fd3716039d532f",
-      title: "Ping-Pong",
-      category: "JavaScript Game", // Added category
-      description:
-        "A simple app that uses JavaScript DOM manipulation to keep score of a Ping-Pong game.",
-      technologies: ["JavaScript", "DOM Manipulation", "HTML5", "CSS3"],
-      siteLink: "https://sydmasina.github.io/PingPong/",
-      imageLink:
-        "https://res.cloudinary.com/djltat0ph/image/upload/v1651222043/MyPortfolio/etmqz3vlnkc9ta8nlf2c.gif",
-      codeLink: "https://github.com/sydmasina/PingPong",
     },
   ];
 
