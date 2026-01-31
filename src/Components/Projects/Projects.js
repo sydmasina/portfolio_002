@@ -1,10 +1,9 @@
-import React from "react";
+import { Container, Grid } from "@mui/material";
 import ProjectCard from "./ProjectCard";
-import { Grid, Container } from "@mui/material";
 
 function Projects() {
   const ProjectList = [
-           {
+    {
       _id: "6269423d1354342334b1866c",
       title: "Full-Stack Real-Time Dating Application",
       category: "Full-Stack Application", // Added category
